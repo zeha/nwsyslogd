@@ -1,0 +1,32 @@
+===============================================================================
+							NetWare syslogd Daemon and Interfaces
+										Changes History
+===============================================================================
+0. Created new project. This is our implementation of UNIX syslogd.
+October 2002--Russ Bateman
+
+1. Renamed this to syslogd.
+21 November 2002--Russ Bateman
+
+2. With version 4 of syslogd subdirectory, I am removing most of the NetWare-
+like source code already written in order to try my hand at porting Christian
+Hofstaedler's Open Source code.
+11 June 2004--Russ Bateman
+
+3. Discarded the new version. Christian sent me some good stuff that makes use
+of what I had already written.
+14 June 2004--Russ Bateman
+
+4. (lots of files, sdk/syslog.h) Incorporated many of Christians changes plus
+worked on it to get it building outside of the IDE.
+14 June 2004--Russ Bateman
+
+5. (several files) Last shuffle to get this loaded and initialized correctly.
+Guess I'll check it in as a bonafide project. Now begins the real work.
+14 July 2004--Russ Bateman
+
+6. (dllmain.c, messages.c, messages.h, syslogd.c) Added Free BSD copyright
+message plus code written by Christian for shutting down. Added call to this
+code both in DLL_NLM_SHUTDOWN and a warning call-back registered for server
+shut-down.
+4 August 2004--Russ Bateman

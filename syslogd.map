@@ -1,0 +1,385 @@
+Address  Size     Name     Subname  Flags  Module
+-------- -------- -------- -------- -----  ------
+00000000 00000042 NLM_Code                closelog.o(CloseSysLog)
+00000050 00000168 NLM_Code                dllmain.o(DllMain)
+000001c0 0000000a NLM_Code           S    dllmain.o(DownWarning)
+000001d0 000000de NLM_Code           S    getaddrinfo.o(get_ai)
+000002b0 00000022 NLM_Code                getaddrinfo.o(gai_strerror)
+000002e0 00000043 NLM_Code                getaddrinfo.o(freeaddrinfo)
+00000330 00000043 NLM_Code           S    getaddrinfo.o(str_isnumber)
+00000380 0000058e NLM_Code                getaddrinfo.o(getaddrinfo)
+00000910 00000120 NLM_Code           S    getaddrinfo.o(get_name)
+00000a30 000001b9 NLM_Code           S    getaddrinfo.o(get_addr)
+00000bf0 000003c0 NLM_Code                getnameinfo.o(getnameinfo)
+00000fb0 000000c0 NLM_Code                library.o(GetOrSetAppData)
+00001070 00000049 NLM_Code                library.o(DisposeAppData)
+000010c0 000000d5 NLM_Code           S    messages.o(UseHardcodedMessages)
+000011a0 00000066 NLM_Code                messages.o(LoadMessages)
+00001210 0000012a NLM_Code                openlog.o(OpenSysLog)
+00001340 00000032 NLM_Code                setlogmask.o(SetSysLogMask)
+00001380 0000011e NLM_Code                syslog.o(LogSysLog)
+000014a0 0000000e NLM_Code           S    syslogd.o(sighup_handler)
+000014b0 0000000e NLM_Code           S    syslogd.o(sigterm_handler)
+000014c0 00000111 NLM_Code           S    syslogd.o(LogParseCommandLine)
+000015e0 000000c5 NLM_Code                syslogd.o(CloseAllLogFiles)
+000016b0 0000050a NLM_Code                syslogd.o(main)
+00001bc0 00000005 NLM_Code           S    syslogd.o(unmapped)
+00001bd0 00000030 NLM_Code           S    syslogd.o(usage)
+00001c00 00000216 NLM_Code           S    syslogd.o(printline)
+00001e20 000000b1 NLM_Code           S    syslogd.o(skip_message)
+00001ee0 000001c4 NLM_Code           S    syslogd.o(logmessage)
+000020b0 0000043e NLM_Code                syslogd.o(LogAMessage)
+000024f0 000006a3 NLM_Code           S    syslogd.o(fprintlog)
+00002ba0 000007ec NLM_Code           S    syslogd.o(ParseSysLogConf)
+00003390 00000686 NLM_Code           S    syslogd.o(cfline)
+00003a20 00000055 NLM_Code           S    syslogd.o(cvthname)
+         0000000f NLM_Code           SD   syslogd.o(domark)
+00003a80 000000ca NLM_Code           S    syslogd.o(logerror)
+00003b50 000000d6 NLM_Code           S    syslogd.o(die)
+00003c30 000000cd NLM_Code           S    syslogd.o(decode)
+00003d00 00000117 NLM_Code           S    syslogd.o(LogDoMark)
+00003e20 00000449 NLM_Code           S    syslogd.o(allowaddr)
+00004270 00000414 NLM_Code           S    syslogd.o(ValidatePeerPermissions)
+00004690 000001c4 NLM_Code           S    syslogd.o(socksetup)
+00004860 0000002f NLM_Code                syslogd.o(FreeUndisposedMemory)
+0000488f 00000059 NLM_Code                libcpre.o(_cstart_)
+000048e8 000001fb NLM_Code                libcpre.o(_LibCPrelude)
+00004ae3 00000079 NLM_Code                libcpre.o(_LibCPostlude)
+         00000048 NLM_Code           D    libcpre.o(_LibCCheckUnload)
+00000000 00000020 NLM_Data                closelog.o
+00000020 00000004 NLM_Data                dllmain.o(gLibId)
+00000028 00000098 NLM_Data                dllmain.o
+000000c0 00000004 NLM_Data                dllmain.o(gCfgFileName)
+000000c8 00000278 NLM_Data                getaddrinfo.o
+00000340 0000002c NLM_Data                getnameinfo.o
+00000370 0000002c NLM_Data                messages.o
+000003a0 00000014 NLM_Data                openlog.o
+000003b8 00000050 NLM_Data                syslog.o
+00000408 000006bc NLM_Data                syslogd.o
+00000ac4 00000068 NLM_Data                syslogd.o(prioritynames)
+00000b2c 000000c0 NLM_Data                syslogd.o(facilitynames)
+00000bec 0000000d NLM_Data                syslogd.o(gConsolePath)
+00000bf9 0000000c NLM_Data                syslogd.o(repeatinterval)
+00000c05 00000010 NLM_Data                syslogd.o(TypeNames)
+00000c18 00000070 NLM_Data                libcpre.o
+00000c88 00000001 NLM_Data                closelog.o
+00000c89 0000001c NLM_Data           S    dllmain.o(@25)
+00000ca5 00000001 NLM_Data                dllmain.o
+00000ca6 00000001 NLM_Data                dllmain.o
+00000ca7 00000001 NLM_Data                getaddrinfo.o
+00000ca8 00000001 NLM_Data                getaddrinfo.o
+00000ca9 00000001 NLM_Data                getaddrinfo.o
+00000caa 00000001 NLM_Data                getaddrinfo.o
+00000cab 00000004 NLM_Data           S    getaddrinfo.o(@200)
+00000caf 0000000c NLM_Data           S    getaddrinfo.o(@196)
+00000cbb 00000048 NLM_Data           S    getaddrinfo.o(@195)
+00000d03 00000010 NLM_Data           S    getaddrinfo.o(@194)
+00000d13 0000000c NLM_Data           S    getaddrinfo.o(@193)
+00000d1f 00000001 NLM_Data                getaddrinfo.o
+00000d20 00000001 NLM_Data                getaddrinfo.o
+00000d21 00000004 NLM_Data           S    getaddrinfo.o(@286)
+00000d25 00000010 NLM_Data           S    getaddrinfo.o(@285)
+00000d35 00000001 NLM_Data                getaddrinfo.o
+00000d36 00000004 NLM_Data           S    getnameinfo.o(@91)
+00000d3a 00000001 NLM_Data                getnameinfo.o
+00000d3b 00000001 NLM_Data                library.o
+00000d3c 00000001 NLM_Data                library.o
+00000d3d 00000001 NLM_Data                messages.o
+00000d3e 00000001 NLM_Data                messages.o
+00000d3f 00000001 NLM_Data                openlog.o
+00000d40 00000001 NLM_Data                setlogmask.o
+00000d41 00000001 NLM_Data                syslog.o
+00000d42 00000001 NLM_Data                syslogd.o
+00000d43 00000001 NLM_Data                syslogd.o
+00000d44 0000010c NLM_Data           S    syslogd.o(@84)
+00000e50 00000001 NLM_Data                syslogd.o
+00000e51 0000000c NLM_Data           S    syslogd.o(@108)
+00000e5d 00000001 NLM_Data                syslogd.o
+00000e5e 00000008 NLM_Data           S    syslogd.o(@209)
+00000e66 00000001 NLM_Data                syslogd.o
+00000e67 00000001 NLM_Data                syslogd.o
+00000e68 00000001 NLM_Data                syslogd.o
+00000e69 00000001 NLM_Data                syslogd.o
+00000e6a 0000000c NLM_Data           S    syslogd.o(@296)
+00000e76 00000001 NLM_Data                syslogd.o
+00000e77 00000001 NLM_Data                syslogd.o
+00000e78 00000001 NLM_Data                syslogd.o
+00000e79 00000008 NLM_Data           S    syslogd.o(@547)
+00000e81 00000010 NLM_Data           S    syslogd.o(@540)
+00000e91 00000001 NLM_Data                syslogd.o
+00000e92 0000000c NLM_Data           S    syslogd.o(@703)
+00000e9e 0000000c NLM_Data           S    syslogd.o(@693)
+00000eaa 00000001 NLM_Data                syslogd.o
+00000eab 00000004 NLM_Data           S    syslogd.o(@863)
+00000eaf 0000000c NLM_Data           S    syslogd.o(@856)
+00000ebb 00000001 NLM_Data                syslogd.o
+00000ebc 00000001 NLM_Data                syslogd.o
+         00000001 NLM_Data           D    syslogd.o
+00000ebd 00000001 NLM_Data                syslogd.o
+00000ebe 00000001 NLM_Data                syslogd.o
+00000ebf 00000001 NLM_Data                syslogd.o
+00000ec0 00000001 NLM_Data                syslogd.o
+00000ec1 00000001 NLM_Data                syslogd.o
+00000ec2 00000001 NLM_Data                syslogd.o
+00000ec3 00000001 NLM_Data                syslogd.o
+00000ec4 00000001 NLM_Data                syslogd.o
+00000ec8 00000001 NLM_Data                libcpre.o
+00000ecc 00000001 NLM_Data                libcpre.o
+00000ed0 00000001 NLM_Data                libcpre.o
+         00000001 NLM_Data           D    libcpre.o
+00000ed4 00000008 NLM_Data $BBB           closelog.o
+00000edc 00000008 NLM_Data $BBB           dllmain.o
+00000ee4 00000008 NLM_Data $BBB           dllmain.o
+00000eec 00000008 NLM_Data $BBB           getaddrinfo.o
+00000ef4 00000008 NLM_Data $BBB           getaddrinfo.o
+00000efc 00000008 NLM_Data $BBB           getaddrinfo.o
+00000f04 00000008 NLM_Data $BBB           getaddrinfo.o
+00000f0c 00000008 NLM_Data $BBB           getaddrinfo.o
+00000f14 00000008 NLM_Data $BBB           getaddrinfo.o
+00000f1c 00000008 NLM_Data $BBB           getaddrinfo.o
+00000f24 00000008 NLM_Data $BBB           getnameinfo.o
+00000f2c 00000008 NLM_Data $BBB           library.o
+00000f34 00000008 NLM_Data $BBB           library.o
+00000f3c 00000008 NLM_Data $BBB           messages.o
+00000f44 00000008 NLM_Data $BBB           messages.o
+00000f4c 00000008 NLM_Data $BBB           openlog.o
+00000f54 00000008 NLM_Data $BBB           setlogmask.o
+00000f5c 00000008 NLM_Data $BBB           syslog.o
+00000f64 00000008 NLM_Data $BBB           syslogd.o
+00000f6c 00000008 NLM_Data $BBB           syslogd.o
+00000f74 00000008 NLM_Data $BBB           syslogd.o
+00000f7c 00000008 NLM_Data $BBB           syslogd.o
+00000f84 00000008 NLM_Data $BBB           syslogd.o
+00000f8c 00000008 NLM_Data $BBB           syslogd.o
+00000f94 00000008 NLM_Data $BBB           syslogd.o
+00000f9c 00000008 NLM_Data $BBB           syslogd.o
+00000fa4 00000008 NLM_Data $BBB           syslogd.o
+00000fac 00000008 NLM_Data $BBB           syslogd.o
+00000fb4 00000008 NLM_Data $BBB           syslogd.o
+00000fbc 00000008 NLM_Data $BBB           syslogd.o
+00000fc4 00000008 NLM_Data $BBB           syslogd.o
+00000fcc 00000008 NLM_Data $BBB           syslogd.o
+00000fd4 00000008 NLM_Data $BBB           syslogd.o
+         00000008 NLM_Data $BBB      D    syslogd.o
+00000fdc 00000008 NLM_Data $BBB           syslogd.o
+00000fe4 00000008 NLM_Data $BBB           syslogd.o
+00000fec 00000008 NLM_Data $BBB           syslogd.o
+00000ff4 00000008 NLM_Data $BBB           syslogd.o
+00000ffc 00000008 NLM_Data $BBB           syslogd.o
+00001004 00000008 NLM_Data $BBB           syslogd.o
+0000100c 00000008 NLM_Data $BBB           syslogd.o
+00001014 00000008 NLM_Data $BBB           syslogd.o
+0000101c 00000008 NLM_Data $BBB           libcpre.o
+00001024 00000008 NLM_Data $BBB           libcpre.o
+0000102c 00000008 NLM_Data $BBB           libcpre.o
+         00000008 NLM_Data $BBB      D    libcpre.o
+00001038 00000014 NLM_Data                getaddrinfo.o
+00001050 0000002c NLM_Data                messages.o
+00001080 00000b81 NLM_Data                syslogd.o
+00001c08 00000118 NLM_Data                
+
+Legend:
+-------
+S: static symbol
+D: deadstripped symbol
+
+--------------
+Public Symbols
+--------------
+
+Type Address  Module               Flags Name
+---- -------- -------------------- ----------------- ----
+CODE 00000000 closelog.o                 CloseSysLog
+CODE 00000050 dllmain.o                  DllMain
+CODE 000002b0 getaddrinfo.o              gai_strerror
+CODE 000002e0 getaddrinfo.o              freeaddrinfo
+CODE 00000380 getaddrinfo.o              getaddrinfo
+CODE 00000bf0 getnameinfo.o              getnameinfo
+CODE 00000fb0 library.o                  GetOrSetAppData
+CODE 00001070 library.o                  DisposeAppData
+CODE 000011a0 messages.o                 LoadMessages
+CODE 00001210 openlog.o                  OpenSysLog
+CODE 00001340 setlogmask.o               SetSysLogMask
+CODE 00001380 syslog.o                   LogSysLog
+CODE 000015e0 syslogd.o                  CloseAllLogFiles
+CODE 000016b0 syslogd.o                  main
+CODE 000020b0 syslogd.o                  LogAMessage
+CODE 00004860 syslogd.o                  FreeUndisposedMemory
+CODE 0000488f libcpre.o                  _cstart_
+CODE 000048e8 libcpre.o                  _LibCPrelude
+CODE 00004ae3 libcpre.o                  _LibCPostlude
+DATA 00000020 dllmain.o                  gLibId
+DATA 000000c0 dllmain.o                  gCfgFileName
+DATA 00000ac4 syslogd.o                  prioritynames
+DATA 00000b2c syslogd.o                  facilitynames
+DATA 00000bec syslogd.o                  gConsolePath
+DATA 00000bf9 syslogd.o                  repeatinterval
+DATA 00000c05 syslogd.o                  TypeNames
+DATA 00000c18 libcpre.o                  _argc
+DATA 00000c1c libcpre.o                  kLibCNLMInfo
+DATA 00001c08 common                     gFileMutex
+DATA 00001ce0 common                     SysLogMessages
+DATA 00001cf0 common                     LogSysLogRunning
+DATA 00001cf4 common                     s_socks_base
+DATA 00001cf8 common                     AllowedPeers
+DATA 00001cfc common                     sDownEventHandle
+DATA 00001d00 common                     gModuleHandle
+DATA 00001d04 common                     gLibAllocRTag
+DATA 00001d08 common                     gLibScreen
+DATA 00001d0c common                     sDownEventRTag
+DATA 00001d10 common                     s_fdsr_base
+DATA 00001d14 common                     MarkSet
+DATA 00001d18 common                     gSysLogFile
+DATA 00001d1c common                     WantDie
+DATA 00001d20 common                     __NLM_BSS_End
+DATA 00001d20 common                     __NLM_BSS_Start
+
+---------------------
+Import/Export Symbols
+---------------------
+
+Import/Export   Symbol Name                              
+---------------------------              
+[Import]        LIBC@writev                             
+[Import]        [libc@]strspn                                  
+[Import]        LIBC@socket                             
+[Import]        [libc@]memset                                  
+[Import]        LIBC@isatty                             
+[Import]        [libc@]getopt                                  
+[Import]        LIBC@malloc                             
+[Import]        LIBC@calloc                             
+[Import]        [libc@]memcpy                                  
+[Import]        LIBC@fprintf                            
+[Import]        [libc@]TerminateNLMFromNKS                     
+[Import]        LIBC@strdup                             
+[Import]        [netware@]OutputToScreen                          
+[Import]        LIBC@select                             
+[Import]        LIBC@mutex_lock                         
+[Import]        LIBC@fclose                             
+[Import]        [libc@]strstr                                  
+[Import]        [libc@]_NonAppCheckUnload                      
+[Import]        [libc@]strlen                                  
+[Import]        [libc@]strcmp                                  
+[Import]        LIBC@signal                             
+[Import]        LIBC@close                              
+[Import]        LIBC@sendto                             
+[Import]        [libc@]___h_errno                              
+[Import]        [libc@]strtol                                  
+[Import]        [libc@]strchr                                  
+[Import]        [libc@]strcasecmp                              
+[Import]        LIBC@pthread_mutex_init                 
+[Import]        [libc@]memcmp                                  
+[Import]        [libc@]strcpy                                  
+[Import]        [libc@]unregister_library                      
+[Import]        LIBC@printf                             
+[Import]        [libc@]__init_environment                      
+[Import]        [libc@]strlcpy                                 
+[Import]        [netware@]UnRegisterEventNotification             
+[Import]        LIBC@sprintf                            
+[Import]        [libc@]strrchr                                 
+[Import]        [libc@]Delete_CLIB_OPT_FromCommandLine         
+[Import]        [libc@]strlcat                                 
+[Import]        [libc@]__ctype                                 
+[Import]        LIBC@realloc                            
+[Import]        [libc@]err                                     
+[Import]        [netware@]AllocateResourceTag                     
+[Import]        [libc@]_set_vm_context                         
+[Import]        [libc@]getallocresourcetag                     
+[Import]        [libc@]_NonAppStop                             
+[Import]        LIBC@gethostname                        
+        [Export] CloseSysLog                              
+[Import]        [libc@]___fd_isset                             
+[Import]        [libc@]register_destructor                     
+[Import]        [libc@]tolower                                 
+[Import]        LIBC@getconsolehandle                   
+[Import]        LIBC@shutdown                           
+[Import]        LIBC@snprintf                           
+[Import]        [libc@]___errno                                
+[Import]        LIBC@free                               
+[Import]        LIBC@bind                               
+[Import]        [libc@]register_library                        
+[Import]        [libc@]set_app_data                            
+[Import]        [netware@]Free                                    
+[Import]        LIBC@strerror                           
+[Import]        [libc@]atoi                                    
+[Import]        LIBC@time                               
+[Import]        [netware@]RegisterForEventNotification            
+[Import]        LIBC@exit                               
+[Import]        [netware@]ReturnMessageInformation                
+[Import]        [libc@]errx                                    
+[Import]        [libc@]get_app_data                            
+[Import]        LIBC@mutex_unlock                       
+[Import]        [libc@]_NonAppStart                            
+[Import]        [netware@]AllocSleepOK                            
+[Import]        LIBC@open                               
+[Import]        LIBC@recvfrom                           
+[Import]        [libc@]LibCPreStart                            
+[Import]        [libc@]__deinit_environment                    
+[Import]        LIBC@htons                              
+[Import]        LIBC@getservbyname                      
+[Import]        LIBC@htonl                              
+[Import]        LIBC@fsync                              
+[Import]        LIBC@gethostbyaddr                      
+[Import]        LIBC@getservbyport                      
+[Import]        [libc@]LibCPostStart                           
+[Import]        [libc@]___optind                               
+[Import]        LIBC@vsnprintf                          
+[Import]        LIBC@ntohl                              
+[Import]        LIBC@ntohs                              
+[Import]        LIBC@fgets                              
+[Import]        LIBC@pthread_mutex_destroy              
+[Import]        LIBC@ctime                              
+[Import]        [libc@]StartNLMInNKS                           
+[Import]        [libc@]___optarg                               
+[Import]        [libc@]inet_pton                               
+[Import]        [libc@]inet_ntop                               
+[Import]        LIBC@gethostbyname                      
+[Import]        LIBC@fopen                              
+[Import]        [libc@]___stderr                               
+[Import]        LIBC@consoleprintf                      
+        [Export] OpenSysLog                               
+        [Export] SetSysLogMask                            
+        [Export] LogSysLog                                
+
+Command Line Switches
+------------------------
+-commandfile syslogd.def -zerobss -nostdlib -sym on -map syslogd.map -o syslogd.nlm closelog.o dllmain.o getaddrinfo.o getnameinfo.o library.o messages.o openlog.o setlogmask.o syslog.o syslogd.o libcpre.o
+
+------------------------
+Compiler/Linker Switches
+------------------------
+
+
+NLM Linker Panel
+---------------------
+Check: 
+Start: _Prelude
+Exit : _Stop
+Generate Link Map: ON
+Generate Codeview Debug Info: ON
+Generate Internal Debugger Record: OFF
+Expand Uninitialized Data: ON
+Flags: (none)
+Suppress Warning Messages: OFF
+Verbose Messages: OFF
+Store full paths: OFF
+
+NLM Target
+---------------------
+Output Type: Other (.XXX)
+Output File: syslogd.nlm
+Copyright: 
+Description: no description
+Initial Screen: DEFAULT
+Initial Thread: 
+Stack: 8192
+Major: 1
+Minor: 0
+Revision: 0
+
+NLM filename: syslogd.nlm
+Version: 1.0    2004-AUG-5
+Description: NetWare syslogd Daemon and Interfaces [unauthorized, debugging, á0]
+Copyright: Copyright (c) 2004 by Novell, Inc. All rights reserved.
+NLM last modify date/time: Thu Aug  5 14:31:22 2004
+MD4 Checksum: c098267babec2cae6609c447750f590b

@@ -1,0 +1,4 @@
+ CloseSysLog,
+ OpenSysLog,
+ SetSysLogMask,
+ LogSysLog

@@ -1,0 +1,13 @@
+Description	"NetWare syslogd Daemon and Interfaces [unauthorized, debugging, á0]" 
+Version		1 0 0 
+Copyright	"Copyright (c) 2004 by Novell, Inc. All rights reserved." 
+Debug 
+Flag_On		0x00000002 
+Start			_LibCPrelude 
+Exit			_LibCPostlude 
+XDCData		syslogd.xdc 
+Messages		msg\syslogd.msg 
+Module		libc 
+Import		@libc.imp 
+Import		@netware.imp 
+Export		@syslogd.exp 

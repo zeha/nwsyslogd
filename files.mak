@@ -1,0 +1,10 @@
+closelog.c
+dllmain.c
+getaddrinfo.c
+getnameinfo.c
+library.c
+messages.c
+openlog.c
+setlogmask.c
+syslog.c
+syslogd.c
